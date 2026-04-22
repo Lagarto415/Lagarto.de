@@ -1,0 +1,13 @@
+{
+  "nav": ["Start", "Projekte", "Über mich", "Kontakt"],
+  "hero": {
+    "intro": "Ich bin Yannick",
+    "intro2": "Fullstack Developer seit: ",
+    "projectCard": {
+      "title": "Project Osmo",
+      "description": "Osmo ist eine KI-betriebene Wiki-Plattform, die Unternehmenswissen automatisch strukturiert, verknüpft und durchsuchbar macht, damit wichtige Informationen nie wieder in Chat-Verläufen oder E-Mails verschwinden.",
+      "tag": "in Entwicklung"
+    }
+  },
+  "skills": {}
+}

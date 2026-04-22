@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-oswald: "Oswald", sans-serif;
+  --color-lgt-grey-50: #101111;
+  --color-lgt-grey-100: #202222;
+  --color-lgt-beige-100: #f8e0bf;
+  --color-lgt-beige-50: #afa08a;
+  --color-lgt-yellow: #ffce00;
+
+  /* Tags */
+  --color-tag-green: #41b883;
+  --color-tag-red: #b84141;
+  --color-tag-blue: #4143b8;
+}
