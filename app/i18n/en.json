@@ -1,1 +1,13 @@
-{}
+{
+  "nav": ["Home", "Projects", "About Me", "Contact"],
+  "hero": {
+    "intro": "I am Yannick",
+    "intro2": "Fullstack Developer since: ",
+    "projectCard": {
+      "title": "Project Osmo",
+      "description": "Osmo is an AI-powered wiki platform that automatically organizes, links, and makes corporate knowledge searchable, ensuring that important information never gets lost in chat histories or emails again.",
+      "tag": "in Development"
+    }
+  },
+  "skills": {}
+}

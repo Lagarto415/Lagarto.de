@@ -4,27 +4,20 @@ import enData from "~/i18n/en.json";
 
 export const useUserSettings = defineStore("userSettings", {
   state: () => {
-    return { lang: "de" };
+    return { lang: "de", deData, enData };
   },
   getters: {
-    async getContent() {
+    getContent() {
       if (this.lang == "de") {
-        const data = await fetch("~/i18n/de.json");
-        return data;
+        return deData;
       } else {
-        const data = await fetch("~/i18n/en.json");
-        return data;
+        return enData;
       }
     },
   },
   actions: {
-    switchLang() {
-      console.log("TRIGGER");
-      if (this.lang == "de") {
-        this.lang = "en";
-      } else {
-        this.lang = "de";
-      }
+    switchLang(newLang: string) {
+      this.lang = newLang;
     },
   },
 });
