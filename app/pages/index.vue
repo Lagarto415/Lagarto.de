@@ -1,12 +1,12 @@
 <template>
-    <main>
+    <main class="flex flex-col justify-center items-center">
         <!-- HEADER -->
         <siteHeader />
         <!-- HERO -->
         <!-- SKILLS -->
+        <skillsView />
         <!-- PROJECTS -->
         <!-- FOOTER -->
-        <p>Dies ist die App VUE</p>
 
         <NuxtLink to="/aboutme">About ME</NuxtLink>
     </main>
@@ -14,6 +14,7 @@
 
 <script setup lang="ts">
 import siteHeader from '~/components/siteHeader.vue';
+import skillsView from '~/components/landing/skillsView.vue';
 
 
 
