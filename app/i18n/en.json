@@ -15,14 +15,14 @@
       {
         "title": "VueJS",
         "labels": ["Frontend"],
-        "projects": ["LeBank, Lagarto5.de"],
-        "icon": "#"
+        "projects": ["LeBank", "Lagarto5.de"],
+        "icon": "vueIcon.png"
       },
       {
         "title": "TypeScript",
         "labels": ["Frontend", "Backend"],
-        "projects": ["LeBank, Lagarto5.de"],
-        "icon": "#"
+        "projects": ["LeBank", "Lagarto5.de"],
+        "icon": "typescriptIcon.svg"
       }
     ]
   }

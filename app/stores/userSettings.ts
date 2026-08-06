@@ -9,7 +9,7 @@ export const useUserSettings = defineStore("userSettings", {
     enData,
   }),
   getters: {
-    getContent(): object {
+    getContent(): typeof deData {
       return this.lang === "de" ? this.deData : this.enData;
     },
   },
