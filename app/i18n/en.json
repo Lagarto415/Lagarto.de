@@ -9,5 +9,21 @@
       "tag": "in Development"
     }
   },
-  "skills": {}
+  "skills": {
+    "headline": "I have experience in:",
+    "panels": [
+      {
+        "title": "VueJS",
+        "labels": ["Frontend"],
+        "projects": ["LeBank", "Lagarto5.de"],
+        "icon": "vueIcon.png"
+      },
+      {
+        "title": "TypeScript",
+        "labels": ["Frontend", "Backend"],
+        "projects": ["LeBank", "Lagarto5.de"],
+        "icon": "typescriptIcon.svg"
+      }
+    ]
+  }
 }
