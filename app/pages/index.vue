@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col justify-center items-center">
+  <main class="flex flex-col justify-between items-center min-h-screen">
     <!-- HEADER -->
     <siteHeader />
     <!-- HERO -->
@@ -8,8 +8,6 @@
     <!-- PROJECTS -->
     <!-- FOOTER -->
     <siteFooter />
-
-    <NuxtLink to="/aboutme">About ME</NuxtLink>
   </main>
 </template>
 

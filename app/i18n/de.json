@@ -23,6 +23,12 @@
         "labels": ["Frontend", "Backend"],
         "projects": ["LeBank", "Lagarto5.de"],
         "icon": "typescriptIcon.svg"
+      },
+      {
+        "title": "PostgreSQL",
+        "labels": ["Datenbank"],
+        "projects": ["Lagarto5.de", "Azubi-App"],
+        "icon": "postgreIcon.svg"
       }
     ]
   }

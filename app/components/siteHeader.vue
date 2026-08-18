@@ -7,20 +7,34 @@
     </div>
     <!-- NAV -->
     <nav class="flex flex-row gap-5">
-      <NuxtLink v-for="(text, i) in content.nav" :key="i" :to="routes[i]"
+      <NuxtLink
+        v-for="(text, i) in content.nav"
+        :key="i"
+        :to="routes[i]"
         class="hover:cursor-pointer text-xl hover:text-lgt-beige-100"
-        :class="$router.currentRoute.value.path == routes[i] ? 'underline' : 'text-lgt-beige-50'">
+        :class="
+          $router.currentRoute.value.path == routes[i]
+            ? 'underline'
+            : 'text-lgt-beige-50'
+        "
+      >
         {{ text }}
       </NuxtLink>
     </nav>
     <!-- LANG -->
     <div class="flex gap-2">
-      <button :class="userSettings.lang == 'de' ? 'underline' : 'text-lgt-beige-50'"
-        class="hover:cursor-pointer hover:text-lgt-beige-100" @click="userSettings.switchLang()">
+      <button
+        :class="userSettings.lang == 'de' ? 'underline' : 'text-lgt-beige-50'"
+        class="hover:cursor-pointer hover:text-lgt-beige-100"
+        @click="userSettings.switchLang()"
+      >
         DE
       </button>
-      <button :class="userSettings.lang == 'en' ? 'underline' : 'text-lgt-beige-50'"
-        class="hover:cursor-pointer hover:text-lgt-beige-100" @click="userSettings.switchLang()">
+      <button
+        :class="userSettings.lang == 'en' ? 'underline' : 'text-lgt-beige-50'"
+        class="hover:cursor-pointer hover:text-lgt-beige-100"
+        @click="userSettings.switchLang()"
+      >
         EN
       </button>
     </div>
@@ -29,7 +43,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed } from "vue";
 
 const userSettings = useUserSettings();
 
