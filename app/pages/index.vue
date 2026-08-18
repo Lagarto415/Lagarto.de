@@ -1,20 +1,17 @@
 <template>
-    <main>
-        <!-- HEADER -->
-        <siteHeader />
-        <!-- HERO -->
-        <!-- SKILLS -->
-        <!-- PROJECTS -->
-        <!-- FOOTER -->
-        <p>Dies ist die App VUE</p>
-
-        <NuxtLink to="/aboutme">About ME</NuxtLink>
-    </main>
+  <main class="overflow-x-hidden">
+    <!-- HEADER -->
+    <siteHeader />
+    <!-- HERO -->
+    <div class="h-screen"></div>
+    <!-- SKILLS -->
+    <!-- PROJECTS -->
+    <!-- FOOTER -->
+    <siteFooter />
+  </main>
 </template>
 
 <script setup lang="ts">
-import siteHeader from '~/components/siteHeader.vue';
-
-
-
+import siteHeader from "~/components/siteHeader.vue";
+import siteFooter from "~/components/siteFooter.vue";
 </script>
